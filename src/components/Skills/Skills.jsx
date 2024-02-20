@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import { FaSquareJs, FaReact, FaSass, FaGitAlt, FaNode } from 'react-icons/fa6'
+import { FaHtml5, FaCss3Alt, FaSquareJs, FaReact, FaFigma, FaDocker, FaNode } from 'react-icons/fa6'
+import { SiMicrosoftsqlserver, SiPhp, SiMysql } from "react-icons/si";
+
+
 
 function Skills() {
   return (
@@ -8,20 +11,33 @@ function Skills() {
       <h3 className={styles.skills_title}>My Skill Set</h3>
       <ul className={styles.skills_list}>
         <li>
+            <FaHtml5 />
+        </li>
+        <li>
+            <FaCss3Alt />
+        </li>
+        <li>
             <FaSquareJs />
+        </li>
+        <li>
+            <SiPhp />
         </li>
         <li>
             <FaReact />
         </li>
         <li>
-            <FaSass />
-        </li>
-        <li>
-            <FaGitAlt />
-        </li>
-        <li>
             <FaNode />
         </li>
+        <li>
+            <SiMicrosoftsqlserver />
+        </li>
+        <li>
+            <SiMysql />
+        </li>
+        <li>
+            <FaDocker />
+        </li>
+        
      
       </ul>
     </div>
