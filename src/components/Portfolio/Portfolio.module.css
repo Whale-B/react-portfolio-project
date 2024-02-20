@@ -1,14 +1,16 @@
 .port_con {
-    max-width: 1170px;
+    max-width: 100%;
     height: 900px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: #526D82;
 
     & .port_title {
         font-size: 32px;
         margin-top: 45px;
         text-align: center;
         font-weight: bold;
+        color: #fff;
     }
 
     & .port_list {

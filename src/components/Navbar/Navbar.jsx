@@ -17,7 +17,7 @@ function Navbar() {
         <div className={styles.container}>
             <div className={styles.nav_con}>
                 <div className={styles.logo}>
-                    <a href="#">JD PORT</a>
+                    <a href="#">JD PORTFOLIO</a>
                 </div>
 
                 <ul>

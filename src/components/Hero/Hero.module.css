@@ -1,4 +1,5 @@
 .hero_wrapper {
+    background-color: #9DB2BF;
     height: 500px;
     overflow: hidden;
 
@@ -20,7 +21,7 @@
         & .text_2 {
             font-size: 64px;
             font-weight: bold;
-            color: #0085FF;
+            color: #526D82;
         }
     
         & .text_3 {

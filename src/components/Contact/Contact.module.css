@@ -1,6 +1,6 @@
 .contact_wapper {
     height: 500px;
-    background-color: #0085FF;
+    background-color: #9DB2BF;
     color: #fff;
     overflow: hidden;
 
@@ -12,6 +12,7 @@
 
         & .contact_info {
             max-width: 420px;
+            color: #27374D;
 
             & h3 {
                 font-size: 32px;
@@ -27,6 +28,7 @@
 
         & .contact_form {
             width: 520px;
+            color: #27374D;
 
             & label {
                 display: block;

@@ -1,14 +1,14 @@
 .number_con {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     height: 300px;
-    background-color: #0085FF;
+    background-color: #9DB2BF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
     & .number_items {
-        color: #fff;
+        color: #27374D;
         margin: 0 50px;
 
         & h3 {
